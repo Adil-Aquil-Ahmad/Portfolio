@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adil Aquil Ahmad - Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="#" data-target="home" class="active">Home</a></li>
+      <li><a href="#" data-target="contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" class="theme-toggle">
+      <i class="fas fa-moon"></i> <!-- Default is moon (dark theme) -->
+    </button>
+  </header>
+
+  <nav class="sub-nav">
+    <a href="#" data-target="background">Background</a>
+    <a href="#" data-target="tech">Tech Stack</a>
+    <a href="#" data-target="projects">Projects</a>
+    <a href="#" data-target="hackathons">Hackathons</a>
+  </nav>
+
+  <main>
+    <section id="home" class="page active">
+      <h1>Welcome to My Portfolio</h1>
+      <div class="intro-container">
+        <div class="intro-text">
+          <h2>Adil Aquil Ahmad</h2>
+          <p>Computer Science Undergraduate | Web Developer | AI Enthusiast</p>
+          <div class="social-links">
+            <a href="https://github.com/Adil-Aquil-Ahmad/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:adilaquil2005@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+918700966009"><i class="fas fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="page">
+      <h1>Contact Me</h1>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:adilaquil2005@gmail.com">adilaquil2005@gmail.com</a></p>
+        <p><i class="fas fa-phone"></i> Phone: <a href="tel:+918700966009">+91-8700966009</a></p>
+        <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Adil-Aquil-Ahmad/" target="_blank">github.com/Adil-Aquil-Ahmad</a></p>
+        <p><i class="fas fa-clock"></i> Timezone: UTC +5:30 (IST)</p>
+      </div>
+    </section>
+
+    <section id="projects" class="page">
+      <h1>My Projects</h1>
+      <div class="projects-grid">
+
+        <!-- Project 1: SwiftRoute -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://placehold.co/400x250/0a0b1a/e0e0ff?text=SwiftRoute" alt="SwiftRoute Traffic System">
+          </div>
+          <h3 class="project-title">SwiftRoute: Smart Traffic Flow</h3>
+          <div class="project-popup">
+            <div class="popup-content">
+              <span class="close-popup">&times;</span>
+              <div class="video-container">
+                <img width="100%" height="500" src="IMG/Swiftroute.png">
+              </div>
+              <div class="project-details">
+                <h3>SwiftRoute: Smart Traffic Flow Control System</h3>
+                <p>Developed an AI-powered traffic management system using YOLO and OpenCV in Python. Implemented real-time car and pedestrian detection to dynamically control traffic lights. Integrated data collection for traffic analysis.</p>
+                <a href="https://github.com/Adil-Aquil-Ahmad/SwiftRoute" class="github-btn" target="_blank">
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: VitalisLink -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://placehold.co/400x250/0a0b1a/e0e0ff?text=VitalisLink" alt="Blood Donation System">
+          </div>
+          <h3 class="project-title">VitalisLink Blood Donation</h3>
+          <div class="project-popup">
+            <div class="popup-content">
+              <span class="close-popup">&times;</span>
+              <div class="video-container">
+                <embed src="https://vitalislink.onrender.com/" width="100%" height="500px">
+              </div>
+              <div class="project-details">
+                <h3>VitalisLink (Blood Donation Management System)</h3>
+                <p>A web application built using Flask, HTML, CSS, and JavaScript. Designed a dashboard to manage blood donation records efficiently. Developed a user authentication system with CSV-based data storage. Implemented dynamic login/logout functionality and an Admin Dashboard to integrate Hospitals and Blood Banks data.</p>
+                <a href="https://github.com/Adil-Aquil-Ahmad/VitalisLink" class="github-btn" target="_blank">
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: CalmCanvas -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://placehold.co/400x250/0a0b1a/e0e0ff?text=CalmCanvas" alt="Self-Care Analytics App">
+          </div>
+          <h3 class="project-title">CalmCanvas Self-Care WebApp</h3>
+          <div class="project-popup">
+            <div class="popup-content">
+              <span class="close-popup">&times;</span>
+              <div class="video-container">
+                <iframe width="100%" height="500px" src="IMG/CalmCanvas.mp4" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="project-details">
+                <h3>CalmCanvas (Self-Care Analytics WebApp)</h3>
+                <p>A web application built using Flask, HTML, CSS, and MongoDB. Created a self-care dashboard to track hydration, hygiene, steps walked, and more. Integrated BMI and calorie burn calculators with user profiles. Implemented secure authentication, dynamic data visualization, and reminder notifications for health activities.</p>
+                <a href="https://github.com/Adil-Aquil-Ahmad/Calm-Canvas" class="github-btn" target="_blank">
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Wraith -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://placehold.co/400x250/0a0b1a/e0e0ff?text=Wraith" alt="Encrypted Messaging Platform">
+          </div>
+          <h3 class="project-title">Wraith Encrypted Messaging</h3>
+          <div class="project-popup">
+            <div class="popup-content">
+              <span class="close-popup">&times;</span>
+              <div class="video-container">
+                <embed src="http://wraith-dusky.vercel.app/" width="100%" height="500px">
+              </div>
+              <div class="project-details">
+                <h3>Wraith: Encrypted Tor-Based Messaging</h3>
+                <p>A private, security-minded chat client running over the Tor network for anonymity. Uses PyQt5-based browser with Tor backend, featuring AES encryption and Base64 encoding. Currently improving security with decentralized storage and better key management to create a robust, end-to-end encrypted privacy solution.</p>
+                <a href="https://github.com/Adil-Aquil-Ahmad/Wraith/" class="github-btn" target="_blank">
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="background" class="page">
+      <h1>Background</h1>
+      <div class="background-content">
+        <div class="education-section">
+          <h2>Education</h2>
+          <div class="education-item">
+            <h3>Bennett University</h3>
+            <p>B.Tech in Computer Science and Engineering</p>
+            <p>Currently in 1st Year</p>
+          </div>
+        </div>
+        
+        <div class="bio-section">
+          <h2>About Me</h2>
+          <p>I am a Computer Science undergraduate student currently pursuing my freshman year at Bennett University. I have a strong passion for programming, website development, and artificial intelligence.</p>
+          <p>I actively participate in hackathons and coding challenges to test and improve my skills. I enjoy building real-world projects and experimenting with different technologies.</p>
+          <p>Currently, I am exploring browser development using the Tor API in Python, aiming to create a privacy-focused web browsing experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech" class="page">
+      <h1>Tech Stack</h1>
+      <div class="tech-grid">
+        <div class="tech-category">
+          <h2><i class="fas fa-code"></i> Programming Languages</h2>
+          <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"> Python</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"> Java</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"> C++</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"> JavaScript</li>
+          </ul>
+        </div>
+        
+        <div class="tech-category">
+          <h2><i class="fas fa-globe"></i> Web Technologies</h2>
+          <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"> HTML5</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"> CSS3</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"> JavaScript</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask"> Flask</li>
+          </ul>
+        </div>
+        
+        <div class="tech-category">
+          <h2><i class="fas fa-database"></i> Databases</h2>
+          <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"> MySQL</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"> MongoDB</li>
+            <li><img src="IMG/CSV.webp" alt="CSV"> CSV Data</li>
+          </ul>
+        </div>
+        
+        <div class="tech-category">
+          <h2><i class="fas fa-robot"></i> AI/Computer Vision</h2>
+          <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV"> OpenCV</li>
+            <li><img src="IMG/YOLO.webp" alt="YOLO" class="yolo-logo"> YOLO</li>
+          </ul>
+        </div>
+        
+        <div class="tech-category">
+          <h2><i class="fas fa-tools"></i> Tools & Libraries</h2>
+          <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"> Git</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PyCryptodome"> PyCryptodome</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Base64"> Base64</li>
+          </ul>
+        </div>
+        
+        <div class="tech-category">
+          <h2><i class="fas fa-desktop"></i> UI Development</h2>
+          <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="Tkinter"> Tkinter</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="PyQt5"> PyQt5</li>
+          </ul>
+        </div>
+        
+        <div class="tech-category">
+          <h2><i class="fas fa-cloud"></i> Cloud Platforms</h2>
+          <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud"> Google Cloud</li>
+          </ul>
+        </div>
+        
+        <div class="tech-category">
+          <h2><i class="fas fa-laptop"></i> Operating Systems</h2>
+          <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="Windows"> Windows</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="MacOS"> MacOS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="hackathons" class="page">
+      <h1>Hackathons</h1>
+      <div class="timeline">
+        <div class="timeline-progress">
+          <div class="ladder-point"></div>
+          <div class="ladder-anchor"></div>
+        </div>
+        <div class="timeline-line"></div>
+    
+        <!-- Hackathon 7 -->
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <img src="IMG/Hackathon7.jpg" alt="Hackverse at IILM">
+            <h3>Hackverse at IILM University</h3>
+            <a href="https://www.linkedin.com/posts/adilaquil_privacytech-tornetwork-cybersecurity-activity-7315803980524118024-qHhX" target="_blank" class="github-btn">
+              <i class="fab fa-linkedin"></i> View Post
+            </a>
+          </div>
+        </div>
+
+        <!-- Hackathon 6 -->
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <img src="IMG/Hackathon6.jpg" alt="Mobile Next App Showcase">
+            <h3>Mobile Next App Showcase</h3>
+            <a href="https://www.linkedin.com/posts/adilaquil_mobilenext-bennettuniversity-vitalislink-activity-7309140027949641729-9iuw" target="_blank" class="github-btn">
+              <i class="fab fa-linkedin"></i> View Post
+            </a>
+          </div>
+        </div>
+
+        <!-- Hackathon 5 -->
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <img src="IMG/Hackathon5.jpg" alt="Tech Arena">
+            <h3>Tech Arena at Bennett University</h3>
+            <a href="https://www.linkedin.com/posts/adilaquil_bennettuniversity-techarena-softwaredevelopment-activity-7285154471884591105-rbaD" target="_blank" class="github-btn">
+              <i class="fab fa-linkedin"></i> View Post
+            </a>
+          </div>
+        </div>
+
+        <!-- Hackathon 4 -->
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <img src="IMG/Hackathon4.jpg" alt="Innovate 2.0">
+            <h3>Innovate 2.0: Hack to Build</h3>
+            <a href="https://www.linkedin.com/posts/adilaquil_bennettuniversity-swiftroute-binarybenders-activity-7264117633808015360-uMhV" target="_blank" class="github-btn">
+              <i class="fab fa-linkedin"></i> View Post
+            </a>
+          </div>
+        </div>
+    
+        <!-- Hackathon 3 -->
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <img src="IMG/Hackathon3.jpg" alt="Geeks for Geeks Finale">
+            <h3>Geeks for Geeks Hackfest Finale</h3>
+            <a href="https://www.linkedin.com/posts/adilaquil_bennettuniversity-swiftroute-binarybenders-activity-7264117633808015360-uMhV" target="_blank" class="github-btn">
+              <i class="fab fa-linkedin"></i> View Post
+            </a>
+          </div>
+        </div>
+
+        <!-- Hackathon 2 -->
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <img src="IMG/Hackathon2.jpg" alt="Bennett University Project Showcase">
+            <h3>Bennett University Project Showcase</h3>
+            <a href="https://www.linkedin.com/posts/adilaquil_bennettuniversity-projectshowcase-softwaredevelopment-activity-7254028214732292097-z_5e" target="_blank" class="github-btn">
+              <i class="fab fa-linkedin"></i> View Post
+            </a>
+          </div>
+        </div>
+
+        <!-- Hackathon 1 -->
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <img src="IMG/Hackathon1.jpg" alt="Geeks for Geeks Hackfest">
+            <h3>Geeks for Geeks Hackfest: Finalist</h3>
+            <a href="https://www.linkedin.com/posts/adilaquil_bennettuniversity-swiftroute-softwaredevelopment-activity-7254026099200811008-pEU7" target="_blank" class="github-btn">
+              <i class="fab fa-linkedin"></i> View Post
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+  <canvas id="confetti-canvas" class="confetti"></canvas>
+
+  <script src="Portfolio.js"></script>
+
+  <div class="popup-backdrop"></div>
+</body>
+</html>
