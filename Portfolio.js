@@ -302,3 +302,7 @@ projectCloseButtons.forEach((btn, index) => {
     iframe.src = '';
   });
 });
+
+window.addEventListener('scroll', () => {
+    document.documentElement.style.setProperty('--scroll-y', `${window.scrollY - 150}px`);
+});
