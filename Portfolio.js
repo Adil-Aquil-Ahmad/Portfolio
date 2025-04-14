@@ -156,7 +156,6 @@ function setupProjectPopups() {
     });
 }
 
-// Update your closeActivePopup function:
 function closeActivePopup() {
     if (activePopup) {
         const popupBackdrop = document.querySelector('.popup-backdrop');
@@ -247,11 +246,9 @@ function setupThemeToggle() {
     const themeToggle = document.getElementById('theme-toggle');
     const icon = themeToggle.querySelector('i');
 
-    // Check for saved theme preference or use dark theme as default
     const currentTheme = localStorage.getItem('theme') || 'dark';
     document.body.setAttribute('data-theme', currentTheme);
 
-    // Update icon based on current theme
     if (currentTheme === 'light') {
         icon.classList.remove('fa-moon');
         icon.classList.add('fa-sun');
@@ -261,11 +258,9 @@ function setupThemeToggle() {
         const currentTheme = document.body.getAttribute('data-theme');
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
         
-        // Set the new theme
         document.body.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
         
-        // Toggle icon
         icon.classList.toggle('fa-moon');
         icon.classList.toggle('fa-sun');
     });
@@ -283,10 +278,10 @@ projectOpenButtons.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     const popup = projectPopups[index];
     const iframe = popup.querySelector('iframe');
-    const videoId = btn.dataset.videoId; // store the video ID in data-video-id
+    const videoId = btn.dataset.videoId;
     iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
 
-    popup.classList.add('active'); // show popup
+    popup.classList.add('active');
     document.body.classList.add('no-scroll');
   });
 });
@@ -298,7 +293,6 @@ projectCloseButtons.forEach((btn, index) => {
     popup.classList.remove('active');
     document.body.classList.remove('no-scroll');
 
-    // Reset src to stop the video and remove spinner
     iframe.src = '';
   });
 });
