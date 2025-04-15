@@ -113,7 +113,6 @@ function setupProjectPopups() {
     
     projectCards.forEach(card => {
         const popup = card.querySelector('.project-popup');
-        const closeBtn = popup.querySelector('.close-popup');
         
         card.addEventListener('click', function(e) {
             // Don't open popup if clicking on interactive elements
@@ -137,10 +136,7 @@ function setupProjectPopups() {
             document.body.style.overflow = 'hidden';
         });
         
-        closeBtn.addEventListener('click', function(e) {
-            e.stopPropagation();
-            closeActivePopup();
-        });
+
     });
     
     // Close popup when clicking on backdrop

@@ -373,24 +373,6 @@ main {
     transform: scale(1);
 }
 
-.close-popup {
-    position: absolute;
-    top: -1rem;
-    right: 1rem;
-    font-size: 2rem;
-    color: var(--text-secondary);
-    cursor: pointer;
-    transition: color 0.2s ease;
-    background: none;
-    border: none;
-    padding: 0.5rem;
-    z-index: 10;
-}
-
-.close-popup:hover {
-    color: var(--accent-primary);
-}
-
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -743,11 +725,6 @@ canvas.confetti {
         height: auto;
         padding: 1.5rem;
         border-radius: 0;
-    }
-
-    .close-popup {
-        position: absolute;
-        top: 0%;
     }
 
     .video-container {
